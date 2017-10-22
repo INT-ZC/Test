@@ -1,4 +1,4 @@
-package HackerEarth;
+package HackerEarth.InputOutput;
 
 import java.util.Scanner;
 
