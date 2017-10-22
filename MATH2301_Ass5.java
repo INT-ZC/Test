@@ -31,7 +31,7 @@ public class MATH2301_Ass5 {
 		{
 			MoveList[Index] = 600000000 + Integer.parseInt(prefix) * 10 + 6;
 			SumList[Index]  = getDistance(prefix);
-			System.out.println(SumList[Index]);
+			System.out.println(MoveList[Index]);
 		}
 		
 		for(int i = 0; i < candidate.size(); i++)
