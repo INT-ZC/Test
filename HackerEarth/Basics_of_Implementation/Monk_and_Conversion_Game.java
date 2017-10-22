@@ -21,20 +21,13 @@ public class Monk_and_Conversion_Game
 		Scanner data = new Scanner(System.in);
 		int N = data.nextInt();
 		
-		int[] A = new int[N];
-		int[] B = new int[N];
 		int sA = 0;
 		int sB = 0;
 		
 		for (int i = 0; i < N; i++)
-			A[i] = data.nextInt();
+			sA += data.nextInt();
 		for (int i = 0; i < N; i++)
-			B[i] = data.nextInt();
-		
-		for (int i : A)
-			sA += i;
-		for (int i : B)
-			sB += i;
+			sB += data.nextInt();
 		
 		System.out.println(sA == sB ? "YES" : "NO");
 	}
