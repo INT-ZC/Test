@@ -2,8 +2,8 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
 
-public class MATH2301_Ass5 {
-	
+public class MATH2301_Ass5
+{
 	static int[][] DATA =
 			{
 					{0, 4686, 1891, 3262, 2964, 1096, 5576, 3512}, //B
@@ -20,7 +20,7 @@ public class MATH2301_Ass5 {
 	static int[] MoveList = new int[5040];
 	static int[] SumList = new int[5040];
 	
-	public static void main(String[] args)
+	public static void main(String[] args) throws Exception
 	{
 		calculate(Arrays.asList(0, 1, 2, 3, 4, 5, 7), "");
 	}
