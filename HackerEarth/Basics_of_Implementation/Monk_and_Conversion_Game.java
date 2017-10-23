@@ -21,8 +21,7 @@ public class Monk_and_Conversion_Game
 		Scanner data = new Scanner(System.in);
 		int N = data.nextInt();
 		
-		int sA = 0;
-		int sB = 0;
+		int sA = 0, sB = 0;
 		
 		for (int i = 0; i < N; i++)
 			sA += data.nextInt();
